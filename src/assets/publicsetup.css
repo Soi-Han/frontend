@@ -1,0 +1,220 @@
+  /* reset */
+  @font-face {
+    font-family: NotoSansRe;
+    src: url("@/fonts/NotoSansKR-Regular.woff");
+  }  
+  @font-face {
+    font-family: NotoSansMD;
+    src: url("@/fonts/NotoSansKR-Medium.woff");
+  }
+  @font-face {
+    font-family: NotoSansBold;
+    src: url("@/fonts/NotoSansKR-Bold.woff");
+  }
+  @font-face {
+    font-family: maruburi;
+    src: url("@/fonts/MaruBuri-Bold.woff");
+  }
+  
+  *{margin:0; padding:0; box-sizing:border-box;}
+  ul li {float:left; list-style:none;}
+  a {display:block; color:#333; text-decoration:none; border:0; outline:0;}
+  span, a {cursor:pointer}
+  
+  body {font-family: NotoSansMD;}
+  .clear {clear:both;}
+
+  /* 와인 종류 박스 */
+  .red {
+    color: #fff;
+    border-color: #c70039;
+    border-radius:4px;
+    background-color: #c70039;
+  }
+  .yellow {
+    color: #fff;
+    border-color: #ed9310;
+    border-radius:4px;
+    background-color: #ed9310;
+  }
+  .blue {
+    color: #fff;
+    border-color: #829dd2;
+    border-radius:4px;
+    background-color: #829dd2;
+  }
+  .rose {
+    color: #fff;
+    border-color: #ea9ab2;
+    border-radius:4px;
+    background-color: #ea9ab2;
+  }
+  /*음식 및 향기 이미지 공통*/
+  .apple, .cow, .beryy, .flower, .appetif, .asia, .beefjerky, .bibimbap, .bulgogi, .sausages, .korean, .desert, .cake, .snak, .chamagne, .cheese, .chellfis, .chicken, .cow, .pyeonyuk, .lobster, .fish, .goiegras, .shrimp, .aperitif, .suyuk, .salmon, .chinese, .turkey, .hazelnuts, .oak, .orange, .peach, .pear, .pomegranate, .prune, .ripen, .strawberry, .berry, .tar, .soil, .vanilla{
+    position:relative;
+    display:block;
+    width:75px;
+    height:75px;
+    border-radius:50%;
+  } 
+
+ /*향기*/
+  .hazelnuts {
+    background:#f4f4f4 url('@/assets/ico-hazelnuts.png') no-repeat center center;
+    background-size:cover;
+  }
+  .oak{
+    background:#f4f4f4 url('@/assets/ico-oak.png') no-repeat center center;
+    background-size:cover;
+  }
+  .orange{
+    background:#f4f4f4 url('@/assets/ico-orange.png') no-repeat center center;
+    background-size:cover;
+  }
+  .peach{
+    background:#f4f4f4 url('@/assets/ico-peach.png') no-repeat center center;
+    background-size:cover;
+  }
+  .pear{
+    background:#f4f4f4 url('@/assets/ico-pear.png') no-repeat center center;
+    background-size:cover;
+  }
+  .pomegranate{
+    background:#f4f4f4 url('@/assets/ico-pomegranate.png') no-repeat center center;
+    background-size:cover;
+  }
+  .prune{
+    background:#f4f4f4 url('@/assets/ico-prune.png') no-repeat center center;
+    background-size:cover;
+  }
+  .ripen{
+    background:#f4f4f4 url('@/assets/ico-ripen.png') no-repeat center center;
+    background-size:cover;
+  }
+  .strawberry{
+    background:#f4f4f4 url('@/assets/ico-strawberry.png') no-repeat center center;
+    background-size:cover;
+  }
+  .tar{
+    background:#f4f4f4 url('@/assets/ico-tar.png') no-repeat center center;
+    background-size:cover;
+  }
+  .apple{
+    background:#f4f4f4 url('@/assets/ico-apple.png') no-repeat center center;
+    background-size:cover;
+  } 
+  .berry{
+    background:#f4f4f4 url('@/assets/ico-berry.png') no-repeat center center;
+    background-size:cover;
+  } 
+  .flower{
+    background:#f4f4f4 url('@/assets/ico-flower.png') no-repeat center center;
+    background-size:cover;
+  }
+  .vanilla{
+    background:#f4f4f4 url('@/assets/ico-vanilla.png') no-repeat center center;
+    background-size:cover;
+  }
+  .soil{
+    background:#f4f4f4 url('@/assets/ico-soil.png') no-repeat center center;
+    background-size:cover;
+  }
+
+  /*음식 개별 이미지*/
+  .cow {
+    background:#f4f4f4 url('@/assets/ico-food-cow.png') no-repeat center center;
+    background-size:cover;
+  }
+  
+  .appetif{
+    background:#f4f4f4 url('@/assets/ico-food-appetif.png') no-repeat center center;
+    background-size:cover;
+  }
+  .asia{
+    background:#f4f4f4 url('@/assets/ico-food-asia.png') no-repeat center center;
+    background-size:cover;
+  }
+  .beefjerky{
+    background:#f4f4f4 url('@/assets/ico-food-beefjerky.png') no-repeat center center;
+    background-size:cover;
+  } 
+  .bibimbap{
+    background:#f4f4f4 url('@/assets/ico-food-bibimbap.png') no-repeat center center;
+    background-size:cover;
+  }
+  .bulgogi{
+    background:#f4f4f4 url('@/assets/ico-food-bulgogi.png') no-repeat center center;
+    background-size:cover;
+  }
+  .korean{
+    background:#f4f4f4 url('@/assets/ico-food-korean.png') no-repeat center center;
+    background-size:cover;
+  }
+  .sausages{
+    background:#f4f4f4 url('@/assets/ico-food-sausages.png') no-repeat center center;
+    background-size:cover;
+  }
+  .cake{
+    background:#f4f4f4 url('@/assets/ico-food-cake.png') no-repeat center center;
+    background-size:cover;
+  }
+  .desert {
+    background:#f4f4f4 url('@/assets/ico-food-desert.png') no-repeat center center;
+    background-size:cover;
+  }
+  .snak {
+    background:#f4f4f4 url('@/assets/ico-food-snak.png') no-repeat center center;
+    background-size:cover;
+  }
+  .champagne{
+    background:#f4f4f4 url('@/assets/ico-food-champagne.png') no-repeat center center;
+    background-size:cover;
+  }
+  .cheese{
+    background:#f4f4f4 url('@/assets/ico-food-cheese.png') no-repeat center center;
+    background-size:cover;
+  }
+  .chellfis{
+    background:#f4f4f4 url('@/assets/ico-food-chellfish.png') no-repeat center center;
+    background-size:cover;
+  } 
+ .fish{
+    background:#f4f4f4 url('@/assets/ico-food-fish.png') no-repeat center center;
+    background-size:cover;
+ }/*해산물*/
+ .lobster{
+    background:#f4f4f4 url('@/assets/ico-food-lobster.png') no-repeat center center;
+    background-size:cover;
+ }
+ .foiegras{
+    background:url('@/assets/ico-food-foiegras.png') no-repeat center center;
+    background-size:cover;
+}
+ .shrimp{
+    background:#f4f4f4 url('@/assets/ico-food-shrimp.png') no-repeat center center;
+    background-size:cover;
+  }
+ .suyuk{
+    background:#f4f4f4 url('@/assets/ico-food-suyuk.png') no-repeat center center;
+    background-size:cover;
+ }
+ .salmon{
+    background:#f4f4f4 url('@/assets/ico-food-salmon.png') no-repeat center center;
+    background-size:cover;
+ }
+ .chinese{
+  background:#f4f4f4 url('@/assets/ico-food-chinese.png') no-repeat center center;
+  background-size:cover;
+ }
+ .turkey{
+  background:#f4f4f4 url('@/assets/ico-food-turkey.png') no-repeat center center;
+  background-size:cover;
+ }
+ .aperitif {
+    background:#f4f4f4 url('@/assets/ico-food-appetif.png') no-repeat center center;
+    background-size:cover;
+ }
+ .pyeonyuk{
+  background:#f4f4f4 url('@/assets/ico-food-pyeonyuk.png') no-repeat center center;
+  background-size:cover;
+ }
