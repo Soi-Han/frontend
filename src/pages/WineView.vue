@@ -59,7 +59,7 @@
               <span>{{view.scent}}</span>
             </li>
             <!-- 음식 -->
-            <li :class="{cow: view.matching ==='스테이크', beefjerky:view.matching ==='육포', cheese:view.matching ==='치즈', bulgogi:view.matching ==='불고기', salmon:view.matching ==='연어', korean:view.matching ==='한식', chinese:view.matching ==='탕수육', desert:view.matching ==='디저트', pyeonyuk:view.matching ==='편육', fish:view.matching ==='해산물', suyuk:view.matching ==='수육', lobster:view.matching ==='랍스터', champagne:view.matching ==='식전주', foiegras:view.matching ==='푸아그라', snak:view.matching ==='스낵', aperitif:view.matching ==='식전주', shrimp:view.matching ==='새우', turkey:view.matching ==='칠면조', bibimbap:view.matching ==='비빔밥', sausages:view.matching ==='소시지', bulgogi:view.matching ==='불고기', goiegras:view.matching ==='푸아그라'}">
+            <li :class="{cow: view.matching ==='스테이크', beefjerky:view.matching ==='육포', cheese:view.matching ==='치즈', bulgogi:view.matching ==='불고기', salmon:view.matching ==='연어', korean:view.matching ==='한식', chinese:view.matching ==='탕수육', desert:view.matching ==='디저트', pyeonyuk:view.matching ==='편육', fish:view.matching ==='해산물', suyuk:view.matching ==='수육', lobster:view.matching ==='랍스터', champagne:view.matching ==='식전주', foiegras:view.matching ==='푸아그라', snak:view.matching ==='스낵', aperitif:view.matching ==='아페리티프', shrimp:view.matching ==='새우', turkey:view.matching ==='칠면조', bibimbap:view.matching ==='비빔밥', sausages:view.matching ==='소시지', bulgogi:view.matching ==='불고기', goiegras:view.matching ==='푸아그라'}">
               <span>{{view.matching}}</span>
             </li>
           </ul>
@@ -270,14 +270,15 @@ const addCart = (number, name) => {
   }
 
   /*버튼*/
-  .filter-container1, .filter-container2 {display:flex; justify-content: space-between; margin-top: 20px; }
+  .filter-container1, .filter-container2 {display:flex; justify-content: space-between; margin-top: 20px;}
   .filter-container1 span, .filter-container2 span {
+    width: 50px;
     margin-right:17px;
     font-size: 16px;
     color: #404040;
   }
   .filter-grade {
-    width:250px;
+    width:200px;
   }
   .filter-grade button {
       display: inline-block;
@@ -541,7 +542,7 @@ const addCart = (number, name) => {
   }
 }
 
-@media screen and (min-width:600px) and (max-width:999px) {
+@media screen and (min-width:600px) and (max-width:1000px) {
   /* 배너 */
   .wineview-banner{
     display: flex; 
