@@ -156,7 +156,7 @@ import router from '@/scripts/router'
   background: #c70039;
   }
 }
-@media screen and (min-width:999px) and (max-width:1230px) {
+@media screen and (min-width:1000px) and (max-width:1230px) {
   /*배경박스*/
   .signup {
   padding-top: 38px;
@@ -248,7 +248,7 @@ import router from '@/scripts/router'
   background: #c70039;
   }
 }
-@media screen and (min-width:600px) and (max-width:999px) {
+@media screen and (min-width:600px) and (max-width:1000px) {
   /*배경박스*/
   .signup {
   margin-top: -20px;

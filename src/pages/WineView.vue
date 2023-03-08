@@ -354,7 +354,7 @@ const addCart = (number, name) => {
     background-color: #fff;
   }
 }
-@media screen and (min-width:1000px) and (max-width:1230px) {
+@media screen and (min-width:999px) and (max-width:1230px) {
   /* 배너 */
   .wineview-banner{
     display: flex; 
@@ -542,7 +542,7 @@ const addCart = (number, name) => {
   }
 }
 
-@media screen and (min-width:600px) and (max-width:1000px) {
+@media screen and (min-width:600px) and (max-width:999px) {
   /* 배너 */
   .wineview-banner{
     display: flex; 

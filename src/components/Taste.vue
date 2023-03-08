@@ -104,7 +104,7 @@ export default{
   .filter-grade .on:nth-child(4) {opacity:0.75;}
   .filter-grade .on:nth-child(5) {opacity:1;}
 }
-@media screen and (min-width: 1000px) and (max-width: 1229px) {
+@media screen and (min-width: 1000px) and (max-width: 1230px) {
 /* 맛 선택  */
 .taste ul {
     float:left;
@@ -115,6 +115,9 @@ export default{
     display:flex;
     justify-content:space-between;
     padding-left: 0;
+  }
+  .taste ul li > span {
+    font-size: 12.5px;
   }
   .taste ul li:last-child{
     padding-left: 10px;
@@ -138,7 +141,7 @@ export default{
   .filter-grade .on:nth-child(4) {opacity:0.75;}
   .filter-grade .on:nth-child(5) {opacity:1;}
 }
-@media screen and (min-width:601px) and (max-width: 999px) {
+@media screen and (min-width:600px) and (max-width: 1000px) {
   .taste ul {
     float:left;
     width:100%;

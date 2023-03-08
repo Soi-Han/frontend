@@ -423,7 +423,7 @@ const visible= ref(false);
     padding: 0;
   }
 }
-@media screen and (min-width:999px) and (max-width: 1230px) {
+@media screen and (min-width:1000px) and (max-width: 1230px) {
   .filterContainer {display: none;}
   /* 그리드 위 박스 */
   .invbox {
@@ -582,7 +582,7 @@ const visible= ref(false);
     padding: 0;
   }
 }
-@media screen and (min-width:600px) and (max-width: 999px) {
+@media screen and (min-width:600px) and (max-width: 1000px) {
   /* 그리드 위 박스 */
   .invbox {
     width: 100%;
