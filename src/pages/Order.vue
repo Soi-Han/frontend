@@ -104,7 +104,6 @@ export default {
       })
     }
 
-
     load();
 
     const computedPrice = computed(()=>{//computed는 인자를 받지 않는다. HTTP통신처럼 리소스많이 필요한 로직 안쓴다.
